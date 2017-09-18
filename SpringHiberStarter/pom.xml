@@ -287,6 +287,17 @@
             <artifactId>mockito-core</artifactId>
             <version>${mockito.version}</version>
         </dependency>
-
-    </dependencies>
+  	   <dependency>
+  	      <groupId>javax.persistence</groupId>
+  	      <artifactId>persistence-api</artifactId>
+  	      <version>1.0</version>
+  	      <type>jar</type>
+  	   </dependency>
+  	   <dependency>
+  	      <groupId>org.itstep</groupId>
+  	      <artifactId>SpringHiberStarter</artifactId>
+  	      <version>0.0.1-SNAPSHOT</version>
+  	      <type>jar</type>
+  	   </dependency>
+  	</dependencies>
 </project>
